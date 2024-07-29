@@ -1,0 +1,32 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.navbar{
+    height: 60px;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: beige;
+}
+.nav-logo{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.nav-center{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.nav-links{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    cursor: pointer;
+}

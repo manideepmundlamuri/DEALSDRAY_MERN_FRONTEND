@@ -1,0 +1,40 @@
+.admin-login {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left: 500px;
+}
+
+hr {
+    border: 0.5px solid red;
+    margin-bottom: 20px;
+}
+
+.form-inputs {
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    font-size: 20px;
+    padding: 30px;
+    margin-bottom: 20px;
+}
+
+.form-inputs input {
+    height: 30px;
+    width: 250px;
+    margin-bottom: 20px;
+    outline: none;
+    font-size: 15px;
+}
+
+.form-inputs button {
+    width: 100%;
+    padding: 8px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
